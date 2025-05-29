@@ -14,7 +14,7 @@ const About = () => {
           observer.disconnect(); // stop observing after visible
         }
       },
-      { threshold: 0.3 } // 30% of section visible triggers animation
+      { threshold:0.3 } // 30% of section visible triggers animation
     );
 
     if (sectionRef.current) {

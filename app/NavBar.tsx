@@ -1,6 +1,6 @@
 'use client';
 import React, { useState, useEffect } from "react";
-
+import { IoMdHome } from "react-icons/io";
 const NavBar = () => {
   const [page, setPage] = useState("");
 
@@ -69,7 +69,7 @@ const NavBar = () => {
             {renderLinks()}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+        <a href="#top" className="btn btn-ghost text-xl"><IoMdHome /></a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{renderLinks()}</ul>
