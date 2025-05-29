@@ -80,7 +80,7 @@ const Contact = () => {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="btn btn-neutral mt-4"
+                  className="btn btn-primary mt-4"
                 >
                   {isSubmitting ? "Sending..." : "Send Message"}
                 </button>

@@ -24,7 +24,7 @@ const Projects = () => {
               <h2 className="  card-title">{project.Title}</h2>
               <p>{project.Description}</p>
               <div className="  card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
+                
               </div>
             </div>
           </div>
