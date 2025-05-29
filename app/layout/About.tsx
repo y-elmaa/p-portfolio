@@ -1,40 +1,11 @@
-'use client'
+"use client";
 import React, { useState, useEffect, useRef } from "react";
 import { about } from "../components/content";
 
 const About = () => {
-  const [visible, setVisible] = useState(false);
-  const sectionRef = useRef(null);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setVisible(true);
-          observer.disconnect(); // stop observing after visible
-        }
-      },
-      { threshold:0.3 } // 30% of section visible triggers animation
-    );
-
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
-    }
-
-    return () => observer.disconnect();
-  }, []);
-
   return (
-    <section
-      id="About"
-      ref={sectionRef}
-      className=" p-8"
-    >
-      <div
-        className={`card flex-col lg:card-side bg-base-100 shadow-sm ${
-          visible ? "slide-in-left" : "opacity-0"
-        }`}
-      >
+    <section id="About" className=" p-8">
+      <div className="card flex-col lg:card-side bg-base-100 shadow-smopacity-0">
         <figure className="w-full max-w-xs mx-auto lg:w-2/3">
           <img
             src={about.Image}

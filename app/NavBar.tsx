@@ -1,36 +1,9 @@
-'use client';
-import React, { useState, useEffect } from "react";
+"use client";
 import { IoMdHome } from "react-icons/io";
+import { useLink, links } from "./hooks/useLink";
+
 const NavBar = () => {
-  const [page, setPage] = useState("");
-
-  const links = [
-    { label: "About", href: "#About" },
-    { label: "Projects", href: "#Projects" },
-    { label: "Contact", href: "#Contact" },
-    { label: "Resume", href: "#Resume" },
-  ];
-
-  useEffect(() => {
-    const handleScroll = () => {
-      let current = "";
-      for (const link of links) {
-        const section = document.querySelector(link.href);
-        if (section) {
-          const top = section.getBoundingClientRect().top;
-          if (top <= 100) {
-            current = link.label;
-          }
-        }
-      }
-      setPage(current);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    handleScroll(); // run on mount
-
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  const { page, setPage } = useLink();
 
   const renderLinks = () =>
     links.map((link) => (
@@ -69,7 +42,9 @@ const NavBar = () => {
             {renderLinks()}
           </ul>
         </div>
-        <a href="#top" className="btn btn-ghost text-xl"><IoMdHome /></a>
+        <a href="#top" className="btn btn-ghost text-xl">
+          <IoMdHome />
+        </a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{renderLinks()}</ul>
