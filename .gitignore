@@ -42,9 +42,8 @@ yarn-error.log*
 next-env.d.ts
 
 #perssonal file
-src/content.ts
-src/Yahya Elmaaroufi CV.pdf
-src/Yahya Elmaaroufi CV.jpg
-src/p-photo.jpg
-src/issues-tracker.jpg
-
+public/issues-tracker.jpg
+public/Yahya Elmaaroufi CV.pdf
+public/Yahya Elmaaroufi CV.jpg
+public/p-photo.jpg
+app/components/content.ts
