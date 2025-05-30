@@ -17,12 +17,17 @@ export async function POST(request: NextRequest) {
     if (!validation.success) {
       return NextResponse.json(validation.error, { status: 400 });
     }
-
+    const { email, message, name, subject } = validation.data;
     const data = await resend.emails.send({
       from: "Acme <onboarding@resend.dev>",
       to: ["delivered@resend.dev"],
-      subject: "hello world",
-      html: "<p>it works!</p>",
+      subject: subject,
+      html: `
+        <p><strong>Nom:</strong> ${name}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Message:</strong></p>
+        <p>${message}</p>
+      `,
     });
 
     return NextResponse.json({ message: "send succese", id: data.data?.id });
