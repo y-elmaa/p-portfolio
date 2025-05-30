@@ -50,7 +50,13 @@ const NavBar = () => {
         <ul className="menu menu-horizontal px-1">{renderLinks()}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        <a
+          className="btn"
+          href="Yahya Elmaaroufi CV.pdf"
+          download="Yahya Elmaaroufi CV.pdf"
+        >
+          Télécharger cv
+        </a>
       </div>
     </div>
   );

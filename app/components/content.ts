@@ -10,6 +10,7 @@ export const projects = [
     Description:
       "Issues Tracker est une app web moderne qui permet de créer, assigner et suivre les tickets d’un projet via un tableau de bord intuitif.",
     Tech: ["Next.js", "prisma", "postgresql"],
+    image:'issues-tracker.jpg'
   },
   {
     Title: "Todo List",
