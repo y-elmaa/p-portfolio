@@ -16,8 +16,8 @@ const Contact = () => {
           <div className="text-center lg:text-left">
             <h1 className="text-5xl font-bold">Contactez-moi</h1>
             <p className="py-6 text-xl">
-              Je suis disponible pour toute opportunité d'emploi ou de
-              formation, n'hésitez pas à me contacter
+              Je suis disponible pour toute opportunité d&apos;emploi ou de
+              formation, n&apos;hésitez pas à me contacter
             </p>
           </div>
           <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">

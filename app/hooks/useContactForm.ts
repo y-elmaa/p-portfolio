@@ -13,13 +13,13 @@ export const useContactForm = () => {
 
   const onSubmit = async (data: FormData) => {
     try {
-      const res = await axios.post("/api/send-email", data);
+      await axios.post("/api/send-email", data);
 
       alert("message Sent!");
       form.reset();
-    } catch (error: any) {
+    } catch (error) {
       alert("Failed to send.");
-      console.error(error?.response?.data || error.message);
+      console.error(error);
     }
   };
   return { ...form, onSubmit };

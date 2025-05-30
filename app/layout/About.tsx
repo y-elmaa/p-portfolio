@@ -1,5 +1,4 @@
 "use client";
-import React, { useState, useEffect, useRef } from "react";
 import { about } from "../components/content";
 
 const About = () => {
@@ -16,9 +15,6 @@ const About = () => {
         <div className="card-body">
           <h2 className="card-title text-6xl">{about.Title}</h2>
           <p className="text-2xl">{about.Description}</p>
-          <div className="card-actions justify-end">
-            <button className="btn btn-primary">Watch</button>
-          </div>
         </div>
       </div>
     </section>
