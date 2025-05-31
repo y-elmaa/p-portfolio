@@ -2,6 +2,7 @@
 import { IoMdHome } from "react-icons/io";
 import { FaGoogle } from "react-icons/fa";
 import { useLink, links } from "./hooks/useLink";
+import { FaGithub } from "react-icons/fa";
 
 const NavBar = () => {
   const { page, setPage } = useLink();
@@ -52,17 +53,24 @@ const NavBar = () => {
       </div>
       <div className="navbar-end">
         <a
-          className="btn bg-gray-800 rounded-xl"
+          className="btn btn-ghost sm:text-xl rounded-xl"
           href="Yahya Elmaaroufi CV.pdf"
           download="Yahya Elmaaroufi CV.pdf"
         >
           cv
         </a>
         <a
-          className="btn bg-gray-800 rounded-xl ml-2"
+          className="btn btn-ghost sm:text-xl rounded-xl ml-2"
           href="mailto:elmaaroufiyahya19@gmail.com"
         >
           <FaGoogle />
+        </a>
+        <a
+          className="btn btn-ghost sm:text-xl rounded-xl ml-2"
+          href="https://github.com/y-elmaa?tab=repositories"
+          target="_blank"
+        >
+          <FaGithub />
         </a>
       </div>
     </div>
