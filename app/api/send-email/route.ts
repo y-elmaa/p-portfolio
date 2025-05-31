@@ -3,13 +3,8 @@ import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
+const recieverEmail = process.env.RECEIVER_EMAIL!;
 
-await resend.emails.send({
-  from: "Acme <onboarding@resend.dev>",
-  to: ["delivered@resend.dev"],
-  subject: "hello world",
-  html: "<p>it works!</p>",
-});
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
@@ -20,7 +15,7 @@ export async function POST(request: NextRequest) {
     const { email, message, name, subject } = validation.data;
     const data = await resend.emails.send({
       from: "Acme <onboarding@resend.dev>",
-      to: ["delivered@resend.dev"],
+      to: [recieverEmail],
       subject: subject,
       html: `
         <p><strong>Nom:</strong> ${name}</p>

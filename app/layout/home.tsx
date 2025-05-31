@@ -16,7 +16,7 @@ const HomePage = () => {
       <div className="hero-content  text-center">
         <div className="max-w-md">
           <h1 className="mb-5  text-xl sm:text-5xl font-bold typing ">
-            Je suis Yahya
+            Yahya Elmaroufi
           </h1>
          <p className="mb-5 typing text-base sm:text-xl flex flex-col">
   <span>a développeur full stack web</span>
