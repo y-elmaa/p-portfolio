@@ -3,6 +3,8 @@ import { useContactForm } from "../hooks/useContactForm";
 
 const Contact = () => {
   const {
+    isSuccess,
+    statusMessage,
     register,
     handleSubmit,
     formState: { errors, isSubmitting },
@@ -85,6 +87,15 @@ const Contact = () => {
                 >
                   {isSubmitting ? "Envoi..." : "Envoyer un message"}
                 </button>
+                {statusMessage && (
+                  <p
+                    className={`text-sm mt-2 text-center ${
+                      isSuccess ? "text-green-600" : "text-red-500"
+                    }`}
+                  >
+                    {statusMessage}
+                  </p>
+                )}
               </form>
             </div>
           </div>
