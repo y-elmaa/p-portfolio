@@ -21,7 +21,7 @@ const Projects = () => {
         key={project.Title}
         href={links[index]}
       >
-        <div className="card bg-base-100 w-96 shadow-sm">
+        <div className="card bg-base-100 sm:w-96 shadow-sm">
           {project.image ? (
             <figure>
               <img

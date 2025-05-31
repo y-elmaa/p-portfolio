@@ -1,9 +1,4 @@
-export const about = {
-  Title: "Elmaaroufi Yahya",
-  Description:
-    "Je m’appelle Yahya Elmaaroufi, développeur basé à Safi, Maroc. Je crée des applications web modernes avec Next.js, React, Node.js,Express, Prisma et PostgreSQL. J’ai aussi de l’expérience en développement mobile (Flutter, Kotlin, Java, Swift) et en jeux vidéo (Godot, C#). Cette polyvalence m’aide à trouver des solutions efficaces et solides. Je suis passionné par le code propre et l’apprentissage constant des nouvelles technologies. J’aimerais beaucoup rejoindre votre équipe pour contribuer avecNext.js.",
-  Image: "p-photo.jpg",
-};
+
 export const projects = [
   {
     Title: "Issues-Tracker",

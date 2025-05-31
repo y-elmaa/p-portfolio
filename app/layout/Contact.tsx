@@ -14,8 +14,8 @@ const Contact = () => {
       <div className="hero bg-base-200 min-h-screen">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="text-center lg:text-left">
-            <h1 className="text-5xl font-bold">Contactez-moi</h1>
-            <p className="py-6 text-xl">
+            <h1 className="text-xl sm:text-5xl font-bold">Contactez-moi</h1>
+            <p className="py-6 sm:text-xl">
               Je suis disponible pour toute opportunité d&apos;emploi ou de
               formation, n&apos;hésitez pas à me contacter
             </p>
