@@ -18,7 +18,7 @@ const HomePage = () => {
           <h1 className="mb-5  text-xl sm:text-5xl font-bold typing ">
             Yahya Elmaroufi
           </h1>
-         <p className="mb-5 typing text-base sm:text-xl flex flex-col">
+         <p className="mb-5 typing text-base sm:text-2xl flex flex-col">
   <span>a développeur full stack web</span>
   <span>et mobile</span>
 </p>
