@@ -1,9 +1,9 @@
 import React from "react";
-import galaxy from "../../public/galaxy.jpeg";
+import galaxy from "../../public/galaxy.webp";
 import Image from "next/image";
 const HomePage = () => {
   return (
-    <div className="hero min-h-screen overflow-hidden">
+    <div className="hero min-h-screen overflow-hidden relative ">
       <Image
         src={galaxy}
         alt="Galaxy"
@@ -11,6 +11,7 @@ const HomePage = () => {
         objectFit="cover"
         quality={75}
         priority
+         placeholder="blur"
       />
 
       <div className="hero-content  text-center">
