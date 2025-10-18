@@ -8,6 +8,18 @@ export const projects = [
     image:'issues-tracker.jpg'
   },
   {
+    Title: "Facebook Post Clone",
+    Description:
+      "Facebook Post Clone est une application web permettant de publier, aimer et commenter des posts, construite avec Next.js et Prisma, utilisant Cloudinary pour le stockage des images et NextAuth pour la gestion des utilisateurs.",
+    Tech: ["Next.js", "Prisma", "NextAuth", "PostgreSQL", "Cloudinary"],
+  },
+  {
+    Title: "Chat App",
+    Description:
+      "Chat App est une application en temps réel construite avec Next.js, Prisma et Pusher, intégrant l'authentification sécurisée via NextAuth et une base de données PostgreSQL.",
+    Tech: ["Next.js", "Prisma", "NextAuth", "PostgreSQL", "Pusher"],
+  },
+  {
     Title: "Todo List",
     Description:
       "To-Do List est une app mobile Jetpack Compose pour gérer ses tâches avec Room, ViewModel et Navigation.",
@@ -34,7 +46,9 @@ export const projects = [
 ];
 
 export const links = [
-  "https://github.com/y-elmaa/issues-tracker",
+  "https://issues-tracker-tan.vercel.app/issues",
+  "https://facbook-post.vercel.app/",
+  "https://chatapp-six-kappa.vercel.app/",
   "https://github.com/y-elmaa/ToDoList",
   "https://github.com/y-elmaa/interval-time-",
   "https://github.com/y-elmaa/swiftUi",
