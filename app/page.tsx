@@ -10,7 +10,7 @@ export default function Home() {
       <HomePage />
       <About />
       <Projects />
-      <Resume />
+      
       <Contact />
     </>
   );
