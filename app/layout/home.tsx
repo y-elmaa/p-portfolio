@@ -20,8 +20,8 @@ const HomePage = () => {
             Yahya Elmaroufi
           </h1>
          <p className="mb-5 typing text-base sm:text-2xl flex flex-col">
-  <span>a développeur full stack web</span>
-  <span>et mobile</span>
+  <span>a full stack web developer</span>
+   
 </p>
 
         </div>
