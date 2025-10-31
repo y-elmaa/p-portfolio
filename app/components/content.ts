@@ -32,7 +32,7 @@ export const projects = [
       "Chat App est une application en temps réel construite avec Next.js, Prisma et Pusher, intégrant l'authentification sécurisée via NextAuth et une base de données PostgreSQL.",
     Tech: ["Next.js", "Prisma", "NextAuth", "PostgreSQL", "Pusher"],
   },
-  ,
+  
 ];
 
 export const links = [
