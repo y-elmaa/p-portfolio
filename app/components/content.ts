@@ -7,11 +7,18 @@ export const projects = [
     image: "issues-tracker.jpg",
   },
   {
-  Title: "SocialMedia",
-  Description:"SocialMedia est une application combinant réseau social et messagerie en temps réel, construite avec Next.js, Prisma et PostgreSQL. Elle utilise NextAuth pour l’authentification, Cloudinary pour les images et Pusher pour le chat.",
-  Tech: ["Next.js", "Prisma", "NextAuth", "PostgreSQL", "Cloudinary", "Pusher"],
-}
-,
+    Title: "SocialMedia",
+    Description:
+      "SocialMedia est une application combinant réseau social et messagerie en temps réel, construite avec Next.js, Prisma et PostgreSQL. Elle utilise NextAuth pour l’authentification, Cloudinary pour les images et Pusher pour le chat.",
+    Tech: [
+      "Next.js",
+      "Prisma",
+      "NextAuth",
+      "PostgreSQL",
+      "Cloudinary",
+      "Pusher",
+    ],
+  },
   {
     Title: "Facebook Post Clone",
     Description:
