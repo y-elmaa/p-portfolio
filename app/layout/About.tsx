@@ -1,115 +1,106 @@
 "use client";
 
-
 const About = () => {
+  const skills = [
+    "NextJS",
+    "React",
+    "Express",
+    "PostgreSQL",
+    "Prisma",
+    "MongoDB",
+    "Flutter",
+    "Kotlin",
+    "Java",
+    "C#",
+  ];
   return (
-    <section id="About" className=" p-8">
-      <div className=" from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37] max-w-3xl mx-auto w-full">
-        <div className="flex flex-row">
-          <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-pink-500 to-violet-600"></div>
-          <div className="h-[1px] w-full bg-gradient-to-r from-violet-600 to-transparent"></div>
+    <section
+      id="About"
+      className="py-20 px-4 md:px-8 bg-neutral-950 text-white"
+    >
+      <div className="max-w-4xl mx-auto space-y-12">
+        <div className="space-y-3">
+          <h2 className="text-4xl md:text-5xl font-light tracking-tight">
+            About
+          </h2>
+          <div className="h-1 w-12 bg-linear-to-r from-blue-500 to-transparent"></div>
         </div>
-        <div className="px-4 lg:px-8 py-5">
-          <div className="flex flex-row space-x-2">
-            <div className="h-3 w-3 rounded-full bg-red-400"></div>
-            <div className="h-3 w-3 rounded-full bg-orange-400"></div>
-            <div className="h-3 w-3 rounded-full bg-green-200"></div>
+
+        <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="space-y-6">
+            <p className="text-neutral-300 leading-relaxed text-lg">
+              I'm a full-stack developer passionate about creating clean,
+              efficient, and user-centric digital solutions. With expertise
+              across modern web technologies and mobile development, I bring
+              ideas to life through code.
+            </p>
+
+            <p className="text-neutral-300 leading-relaxed text-lg">
+              I thrive on solving complex problems, learning new technologies,
+              and collaborating with teams to build products that make a
+              difference.
+            </p>
+          </div>
+
+          <div className="bg-neutral-900 rounded-lg p-6 border border-neutral-800 font-mono text-sm overflow-x-auto">
+            <div className="space-y-2 text-neutral-400">
+              <div>
+                <span className="text-blue-400">const</span>{" "}
+                <span className="text-white">developer</span>
+                <span className="text-blue-400"> = </span>
+                <span className="text-neutral-500">{"{"}</span>
+              </div>
+              <div className="ml-4">
+                <span className="text-neutral-300">name:</span>{" "}
+                <span className="text-green-400">'Yahya'</span>
+                <span className="text-neutral-500">,</span>
+              </div>
+              <div className="ml-4">
+                <span className="text-neutral-300">role:</span>{" "}
+                <span className="text-green-400">'Full Stack Developer'</span>
+                <span className="text-neutral-500">,</span>
+              </div>
+              <div className="ml-4">
+                <span className="text-neutral-300">traits:</span>{" "}
+                <span className="text-neutral-500">{"["}</span>
+              </div>
+              <div className="ml-8 space-y-1">
+                <div>
+                  <span className="text-green-400">'hardworking'</span>
+                  <span className="text-neutral-500">,</span>
+                </div>
+                <div>
+                  <span className="text-green-400">'fast learner'</span>
+                  <span className="text-neutral-500">,</span>
+                </div>
+                <div>
+                  <span className="text-green-400">'problem solver'</span>
+                </div>
+              </div>
+              <div className="ml-4">
+                <span className="text-neutral-500">{"],"}</span>
+              </div>
+              <div>
+                <span className="text-neutral-500">{"}"}</span>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8">
-          <code className="font-mono text-xs md:text-sm lg:text-base">
-            <div className="blink">
-              <span className="mr-2 text-pink-500">const</span>
-              <span className="mr-2 text-white">coder</span>
-              <span className="mr-2 text-pink-500">=</span>
-              <span className="text-gray-400">{"{"}</span>
-            </div>
-            <div>
-              <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
-              <span className="text-gray-400">{`'`}</span>
-              <span className="text-amber-300">Yahya</span>
-              <span className="text-gray-400">{`',`}</span>
-            </div>
-            <div className="ml-4 lg:ml-8 mr-2">
-              <span className=" text-white">skills:</span>
-              <span className="text-gray-400">{`['`}</span>
-              <span className="text-amber-300">NextJS</span>
-              <span className="text-gray-400">{"', '"}</span>
-              <span className="text-amber-300">React</span>
-              <span className="text-gray-400">{"', '"}</span>
-              <span className="text-amber-300">Express</span>
-              <span className="text-gray-400">{"', '"}</span>
-              <span className="text-amber-300">PostgreSQL</span>
-              <span className="text-gray-400">{"', '"}</span>
-              <span className="text-amber-300">Prisma</span>
-              <span className="text-gray-400">{"', '"}</span>
-              <span className="text-amber-300">MongoDB</span>
-              <span className="text-gray-400">{"', '"}</span>
-              <span className="text-amber-300">Flutter</span>
-              <span className="text-gray-400">{"', '"}</span>
-              <span className="text-amber-300">Kotlin</span>
-              <span className="text-gray-400">{"', '"}</span>
-              <span className="text-amber-300">Java</span>
-              <span className="text-gray-400">{"', '"}</span>
-              <span className="text-amber-300">C#</span>
-              <span className="text-gray-400">{"'],"}</span>
-            </div>
-            <div>
-              <span className="ml-4 lg:ml-8 mr-2 text-white">hardWorker:</span>
-              <span className="text-orange-400">true</span>
-              <span className="text-gray-400">,</span>
-            </div>
-            <div>
-              <span className="ml-4 lg:ml-8 mr-2 text-white">
-                quickLearner:
-              </span>
-              <span className="text-orange-400">true</span>
-              <span className="text-gray-400">,</span>
-            </div>
-            <div>
-              <span className="ml-4 lg:ml-8 mr-2 text-white">
-                problemSolver:
-              </span>
-              <span className="text-orange-400">true</span>
-              <span className="text-gray-400">,</span>
-            </div>
-            <div>
-              <span className="ml-4 lg:ml-8 mr-2 text-green-400">
-                hireable:
-              </span>
-              <span className="text-orange-400">function</span>
-              <span className="text-gray-400">{"() {"}</span>
-            </div>
-            <div>
-              <span className="ml-8 lg:ml-16 mr-2 text-orange-400">return</span>
-              <span className="text-gray-400">{`(`}</span>
-            </div>
-            <div>
-              <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
-              <span className="mr-2 text-white">hardWorker</span>
-              <span className="text-amber-300">&amp;&amp;</span>
-            </div>
-            <div>
-              <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
-              <span className="mr-2 text-white">problemSolver</span>
-              <span className="text-amber-300">&amp;&amp;</span>
-            </div>
-            <div>
-              <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
-              <span className="mr-2 text-white">skills.length</span>
-              <span className="mr-2 text-amber-300">&gt;=</span>
-              <span className="text-orange-400">5</span>
-            </div>
-            <div>
-              <span className="ml-8 lg:ml-16 mr-2 text-gray-400">{`);`}</span>
-            </div>
-            <div>
-              <span className="ml-4 lg:ml-8 text-gray-400">{`};`}</span>
-            </div>
-            <div>
-              <span className="text-gray-400">{`};`}</span>
-            </div>
-          </code>
+
+        <div className="space-y-6">
+          <h3 className="text-2xl font-light tracking-tight">
+            Skills & Technologies
+          </h3>
+          <div className="flex flex-wrap gap-3">
+            {skills.map((skill) => (
+              <div
+                key={skill}
+                className="px-4 py-2 bg-neutral-900 border border-neutral-800 rounded-full text-sm hover:border-blue-500 transition-colors cursor-default"
+              >
+                {skill}
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>

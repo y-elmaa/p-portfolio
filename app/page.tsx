@@ -5,12 +5,11 @@ import HomePage from "./layout/home";
 
 export default function Home() {
   return (
-    <>
+    <div className="bg-neutral-950 text-white">
       <HomePage />
       <About />
       <Projects />
-      
       <Contact />
-    </>
+    </div>
   );
 }

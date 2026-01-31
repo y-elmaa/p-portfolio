@@ -7,6 +7,12 @@ export const projects = [
     image: "issues-tracker.jpg",
   },
   {
+    Title: "Barber Shop Manager",
+    Description:
+      "Barber Shop Manager est une application web moderne qui permet de gérer les rendez-vous, les barbiers et les horaires, avec un tableau de bord intuitif pour optimiser l’organisation du salon.",
+    Tech: ["React", "Node.js", "express.js", "prisma", "postgresql"],
+  },
+  {
     Title: "SocialMedia",
     Description:
       "SocialMedia est une application combinant réseau social et messagerie en temps réel, construite avec Next.js, Prisma et PostgreSQL. Elle utilise NextAuth pour l’authentification, Cloudinary pour les images et Pusher pour le chat.",
@@ -18,7 +24,7 @@ export const projects = [
       "Cloudinary",
       "Pusher",
     ],
-    image:"socialmedia.webp"
+    image: "socialmedia.webp",
   },
   {
     Title: "Facebook Post Clone",
@@ -31,11 +37,12 @@ export const projects = [
     Description:
       "Chat App est une application en temps réel construite avec Next.js, Prisma et Pusher, intégrant l'authentification sécurisée via NextAuth et une base de données PostgreSQL.",
     Tech: ["Next.js", "Prisma", "NextAuth", "PostgreSQL", "Pusher"],
-  }
+  },
 ];
 
 export const links = [
   "https://issues-tracker-tan.vercel.app/issues",
+  "https://barber-appointment-zeta.vercel.app/login",
   "https://socialmedia-seven-psi.vercel.app/",
   "https://facbook-post.vercel.app/",
   "https://chatapp-six-kappa.vercel.app/",
