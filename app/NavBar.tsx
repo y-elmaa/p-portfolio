@@ -15,7 +15,7 @@ const NavBar = () => {
         <a
           href={link.href}
           onClick={() => setPage(link.label)}
-          className={page === link.label ? "text-primary font-bold" : ""}
+          className={page === link.label ? "text-blue-400 font-bold" : ""}
         >
           {link.label}
         </a>

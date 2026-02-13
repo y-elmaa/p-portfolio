@@ -1,21 +1,24 @@
-export const projects = [
+export const projects = 
+  [
   {
-    Title: "Issues-Tracker",
+    Title: "Issues Tracker",
     Description:
-      "Issues Tracker est une app web moderne qui permet de créer, assigner et suivre les tickets d’un projet via un tableau de bord intuitif.",
-    Tech: ["Next.js", "prisma", "postgresql"],
+      "A modern project management web app designed to efficiently create, assign, and track issues through a clean and intuitive dashboard.",
+    Tech: ["Next.js", "Prisma", "PostgreSQL"],
     image: "issues-tracker.jpg",
+    links:"https://issues-tracker-tan.vercel.app/issues",
   },
   {
     Title: "Barber Shop Manager",
     Description:
-      "Barber Shop Manager est une application web moderne qui permet de gérer les rendez-vous, les barbiers et les horaires, avec un tableau de bord intuitif pour optimiser l’organisation du salon.",
-    Tech: ["React", "Node.js", "express.js", "prisma", "postgresql"],
+      "An all-in-one web solution for barbershops to manage appointments, barbers, and working hours, featuring a smart dashboard to streamline daily operations.",
+    Tech: ["React", "Node.js", "Express.js", "Prisma", "PostgreSQL"],
+    links:"https://barber-appointment-zeta.vercel.app/login",
   },
   {
-    Title: "SocialMedia",
+    Title: "Social Media",
     Description:
-      "SocialMedia est une application combinant réseau social et messagerie en temps réel, construite avec Next.js, Prisma et PostgreSQL. Elle utilise NextAuth pour l’authentification, Cloudinary pour les images et Pusher pour le chat.",
+      "A full-featured social media platform with real-time messaging, built using modern web technologies. Includes secure authentication, image hosting, and live chat for an engaging user experience.",
     Tech: [
       "Next.js",
       "Prisma",
@@ -25,25 +28,23 @@ export const projects = [
       "Pusher",
     ],
     image: "socialmedia.webp",
+    links:"https://socialmedia-seven-psi.vercel.app/",
   },
   {
     Title: "Facebook Post Clone",
     Description:
-      "Facebook Post Clone est une application web permettant de publier, aimer et commenter des posts, construite avec Next.js et Prisma, utilisant Cloudinary pour le stockage des images et NextAuth pour la gestion des utilisateurs.",
+      "A Facebook-inspired web app that allows users to create, like, and comment on posts, with secure authentication and cloud-based image storage.",
     Tech: ["Next.js", "Prisma", "NextAuth", "PostgreSQL", "Cloudinary"],
+    links:"https://facbook-post.vercel.app/",
   },
   {
     Title: "Chat App",
     Description:
-      "Chat App est une application en temps réel construite avec Next.js, Prisma et Pusher, intégrant l'authentification sécurisée via NextAuth et une base de données PostgreSQL.",
+      "A real-time chat application built for speed and security, featuring instant messaging, user authentication, and a scalable database architecture.",
     Tech: ["Next.js", "Prisma", "NextAuth", "PostgreSQL", "Pusher"],
+    links:"https://chatapp-six-kappa.vercel.app/",
   },
 ];
 
-export const links = [
-  "https://issues-tracker-tan.vercel.app/issues",
-  "https://barber-appointment-zeta.vercel.app/login",
-  "https://socialmedia-seven-psi.vercel.app/",
-  "https://facbook-post.vercel.app/",
-  "https://chatapp-six-kappa.vercel.app/",
-];
+
+

@@ -29,16 +29,15 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-neutral-300 leading-relaxed text-lg">
-              I'm a full-stack developer passionate about creating clean,
-              efficient, and user-centric digital solutions. With expertise
-              across modern web technologies and mobile development, I bring
-              ideas to life through code.
+              I build because I love creating.
+I create because I know what it feels like to be inspired.
             </p>
 
             <p className="text-neutral-300 leading-relaxed text-lg">
-              I thrive on solving complex problems, learning new technologies,
-              and collaborating with teams to build products that make a
-              difference.
+             Seeing an idea turn into a real product — something people can click, use, and benefit from — that’s what drives me. As a full-stack developer, I enjoy crafting clean systems, intuitive interfaces, and experiences that simply work.
+            </p>
+            <p className="text-neutral-300 leading-relaxed text-lg">
+             For me, development isn’t just logic and syntax — it’s impact.
             </p>
           </div>
 

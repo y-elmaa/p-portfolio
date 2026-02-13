@@ -94,7 +94,7 @@ const Contact = () => {
                   id="name"
                   {...register("name")}
                   type="text"
-                  placeholder="Your name"
+                  placeholder="your name"
                   className="w-full px-4 py-2.5 bg-neutral-900 border border-neutral-800 rounded-lg text-white placeholder-neutral-500 focus:outline-none focus:border-blue-500 transition-colors text-sm"
                 />
                 {errors.name && (
@@ -132,7 +132,7 @@ const Contact = () => {
                   id="subject"
                   {...register("subject")}
                   type="text"
-                  placeholder="Project inquiry"
+                  placeholder="your subject"
                   className="w-full px-4 py-2.5 bg-neutral-900 border border-neutral-800 rounded-lg text-white placeholder-neutral-500 focus:outline-none focus:border-blue-500 transition-colors text-sm"
                 />
                 {errors.subject && (

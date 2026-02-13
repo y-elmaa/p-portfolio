@@ -1,5 +1,5 @@
 import React from "react";
-import { links, projects } from "../components/content";
+import { projects } from "../components/content";
 import Link from "next/link";
 
 const Projects = () => {
@@ -17,10 +17,10 @@ const Projects = () => {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {projects.map((project, index) => (
+          {projects.map((project) => (
             <Link
               key={project.Title}
-              href={links[index]}
+              href={project.links}
               target="_blank"
               rel="noopener noreferrer"
               className="group"
