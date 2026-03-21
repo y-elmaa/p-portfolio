@@ -9,11 +9,11 @@ export const projects =
     links:"https://issues-tracker-tan.vercel.app/issues",
   },
   {
-    Title: "Barber Shop Manager",
+    Title: "Reservy",
     Description:
       "An all-in-one web solution for barbershops to manage appointments, barbers, and working hours, featuring a smart dashboard to streamline daily operations.",
-    Tech: ["React", "Node.js", "Express.js", "Prisma", "PostgreSQL"],
-    links:"https://barber-appointment-zeta.vercel.app/login",
+    Tech: ["Next.js", "React", "Node.js", "Prisma", "PostgreSQL"],
+    links:"https://reservy-nu.vercel.app",
   },
   {
     Title: "Social Media",
