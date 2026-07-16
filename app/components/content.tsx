@@ -13,6 +13,7 @@ export const projects =
     Description:
       "An all-in-one web solution for barbershops to manage appointments, barbers, and working hours, featuring a smart dashboard to streamline daily operations.",
     Tech: ["Next.js", "React", "Node.js", "Prisma", "PostgreSQL"],
+    image:"appointment.png",
     links:"https://reservy-nu.vercel.app",
   },
   {
