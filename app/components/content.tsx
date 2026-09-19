@@ -31,20 +31,20 @@ export const projects =
     image: "socialmedia.webp",
     links:"https://socialmedia-seven-psi.vercel.app/",
   },
-  {
-    Title: "Facebook Post Clone",
-    Description:
-      "A Facebook-inspired web app that allows users to create, like, and comment on posts, with secure authentication and cloud-based image storage.",
-    Tech: ["Next.js", "Prisma", "NextAuth", "PostgreSQL", "Cloudinary"],
-    links:"https://facbook-post.vercel.app/",
-  },
-  {
-    Title: "Chat App",
-    Description:
-      "A real-time chat application built for speed and security, featuring instant messaging, user authentication, and a scalable database architecture.",
-    Tech: ["Next.js", "Prisma", "NextAuth", "PostgreSQL", "Pusher"],
-    links:"https://chatapp-six-kappa.vercel.app/",
-  },
+  // {
+  //   Title: "Facebook Post Clone",
+  //   Description:
+  //     "A Facebook-inspired web app that allows users to create, like, and comment on posts, with secure authentication and cloud-based image storage.",
+  //   Tech: ["Next.js", "Prisma", "NextAuth", "PostgreSQL", "Cloudinary"],
+  //   links:"https://facbook-post.vercel.app/",
+  // },
+  // {
+  //   Title: "Chat App",
+  //   Description:
+  //     "A real-time chat application built for speed and security, featuring instant messaging, user authentication, and a scalable database architecture.",
+  //   Tech: ["Next.js", "Prisma", "NextAuth", "PostgreSQL", "Pusher"],
+  //   links:"https://chatapp-six-kappa.vercel.app/",
+  // },
 ];
 
 
